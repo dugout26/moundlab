@@ -1,0 +1,13 @@
+---
+layout: default
+title: 마운드랩 실측 노트
+---
+<section class="hero">
+  <h1>AI 도구, 직접 돌려 보고 숫자로.</h1>
+  <p>클로드 코드와 AI 코딩 도구를 실제로 실행해 토큰·비용·시간·결과를 잽니다. 쇼츠에서 다 못 보여 준 측정 방법, 전체 숫자, 명령어, 출처를 여기 남겨요.</p>
+</section>
+<ul class="list">
+{% for p in site.posts %}
+  <li><a href="{{ p.url | relative_url }}"><span class="d">{{ p.date | date: "%m.%d" }}</span><strong>{{ p.title }}</strong><em>{{ p.summary }}</em></a></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+title: 마운드랩 실측 노트
+description: 클로드 코드·AI 코딩 도구를 직접 돌려 보고 토큰·비용·시간·결과를 숫자로 기록합니다. 유튜브 마운드랩 쇼츠의 측정 원본.
+url: https://dugout26.github.io
+baseurl: /moundlab
+lang: ko_KR
+timezone: Asia/Seoul
+permalink: /:year/:month/:day/:title/
+author: 마운드랩
+youtube: https://www.youtube.com/@moundlab
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+markdown: kramdown
+future: false
+exclude: [README.md]

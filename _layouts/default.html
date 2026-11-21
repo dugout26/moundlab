@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+{% feed_meta %}
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="{{ '/' | relative_url }}">마운드랩 <span>실측 노트</span></a>
+  <nav><a href="{{ '/about/' | relative_url }}">소개</a><a href="{{ site.youtube }}" rel="noopener">유튜브</a></nav>
+</header>
+<main>{{ content }}</main>
+<footer>찍은 것만 기록합니다. 수치는 표기한 날짜·환경에서 잰 값이며, 버전이 바뀌면 달라질 수 있어요. · <a href="{{ site.youtube }}">@moundlab</a></footer>
+</body>
+</html>
